@@ -1,0 +1,206 @@
+/* Fontes dos ícones do bootstrap */
+
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css");
+ 
+/* No CSS, eu usei a unidade REM para tamanhos de fontes, larguras, alturas etc. Para manter a responsividade do site (ou tentar, né... ksksksksksks) */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Comic Sans MS", sans-serif;
+}
+
+header {
+    background-color: #4E2705;
+    color: white;
+}
+
+.informacoesCabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.3rem;
+    height: 8.8rem;
+    list-style-type: none;
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+}
+
+.logo {
+    width: 9.678rem;
+    height: 3.125rem;
+}
+
+.botaoHome {
+    background-color: #FFFFF0;
+    padding: 0.625rem;
+    width: 9.5rem;
+    height: 4.188rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 1.563rem;
+}
+
+.botaoHome i {
+    font-size: 3.563rem;
+}
+
+.botaoHome h3 {
+    font-size: 1rem;
+    padding-right: 1rem;
+    font-weight: normal;
+}
+
+.botaoCadastro {
+    background-color: #FFFFF0;
+    padding: 0.625rem;
+    width: 11.75rem;
+    height: 4.188rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 1.563rem;
+}
+
+.botaoCadastro i {
+    font-size: 3.563rem;
+    padding-right: 0.4rem;
+}
+
+.botaoCadastro h3 {
+    font-size: 1rem;
+    padding-right: 0.5rem;
+    font-weight: normal;
+}
+
+.botaoCarrinho {
+    background-color: #FFFFF0;
+    padding: 0.625rem;
+    width: 11.75rem;
+    height: 4.188rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 1.563rem;
+}
+
+.botaoCarrinho i {
+    font-size: 3.563rem;
+    padding-right: 0.4rem;
+}
+
+.botaoCarrinho h3 {
+    font-size: 1rem;
+    padding-right: 0.5rem;
+    font-weight: normal;
+}
+
+.informacoes {
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    gap: 1.25rem; 
+}
+
+.fotoPerfil {
+    background-color: #FFFFF0;
+    border-radius: 50%;
+    width: 3.5rem;
+    height: 3.313rem;
+    color: black;
+}
+
+.fotoPerfil i {
+    font-size: 2.875rem;
+    position: relative;
+    bottom: 0.5rem;
+    left: 0.281rem;
+}
+
+.admin {
+    text-align: center;
+    text-decoration: underline;
+}
+
+aside img {
+    width: 100%;
+    height: 17.063rem;
+}
+
+.maisVendidos {
+    text-align: center;
+    margin-top: 1.688rem;
+    max-width: 90rem;
+    margin: 0 auto;
+}
+
+.maisVendidos h1 {
+    margin-bottom: 1.25rem;
+    font-size: 1.25rem;
+}
+
+.carrossel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carrossel i {
+    font-size: 6.25rem;
+}
+
+.imagensCarrossel {
+    display: flex;
+    gap: 3.125rem;
+}
+
+.melhoresPrecos {
+    text-align: center;
+    max-width: 90rem;
+    margin: 0 auto;
+    padding: 2.5rem;
+}
+
+.melhoresPrecos h1 {
+    margin-bottom: 1.25rem;
+    font-size: 1.25rem;
+}
+
+.carrossel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carrossel i {
+    font-size: 6.25rem;
+}
+
+.imagensCarrossel {
+    display: flex;
+    gap: 3.125rem;
+}
+
+.marcas {
+    max-width: 90rem;
+    margin: 0 auto;
+    padding-top: 3.313rem;
+}
+
+.marcas h1 {
+    text-align: center;
+}
+
+.imagemMarcas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.875rem;
+    margin-top: 3.875rem;
+}
