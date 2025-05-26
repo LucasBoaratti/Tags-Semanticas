@@ -4,12 +4,16 @@
  
 /* No CSS, eu usei a unidade REM para tamanhos de fontes, larguras, alturas etc. Para manter a responsividade do site (ou tentar, né... ksksksksksks) */
 
+/* Resetando o CSS geral */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: "Comic Sans MS", sans-serif;
 }
+
+/* CSS do cabeçalho */
 
 header {
     background-color: #4E2705;
@@ -127,10 +131,14 @@ li a {
     text-decoration: underline;
 }
 
+/* CSS do banner */
+
 aside img {
     width: 100%;
     height: 17.063rem;
 }
+
+/* CSS do carrossel dos mais vendidos */
 
 .maisVendidos {
     text-align: center;
@@ -159,6 +167,8 @@ aside img {
     gap: 3.125rem;
 }
 
+/* CSS do carrossel dos melhores preços */
+
 .melhoresPrecos {
     text-align: center;
     max-width: 90rem;
@@ -186,6 +196,8 @@ aside img {
     gap: 3.125rem;
 }
 
+/* CSS das marcas */
+
 .marcas {
     max-width: 90rem;
     margin: 0 auto;
@@ -203,4 +215,41 @@ aside img {
     align-items: center;
     gap: 1.875rem;
     margin-top: 3.875rem;
+}
+
+/* CSS do rodapé */
+
+.rodape {
+    background-color: #EC0E0E;
+    padding: 2.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5.625rem;
+}
+
+.direitos {
+    text-align: center;
+}
+
+.iconesRodape {
+    font-size: 3.125rem;
+    margin-top: 3.75rem;
+}
+
+.contatos {
+    line-height: 3.125rem;  
+}
+
+.links {
+    line-height: 3.125rem;
+}
+
+.configuracoes {
+    text-align: center;
+}
+
+.iconesAcessibilidade {
+    font-size: 3.125rem;
+    margin-top: 3.75rem;
 }
